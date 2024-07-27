@@ -1,0 +1,184 @@
+body{
+    
+    opacity: 90%;
+    background:linear-gradient(rgb(227, 121, 65)20%,rgb(255, 255, 255),rgb(78, 214, 103));
+}
+
+.container{
+    width:60vw;
+    height: 1220px;
+    border: none;
+    margin: auto;
+    display:flex;
+   justify-content: center;
+   background-color: rgb(118, 183, 244);
+   opacity: 0.8;
+   border-radius: 12px;
+   color:black;
+}
+
+
+h1{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:solid;
+    color: rgb(15, 50, 120);
+}
+
+p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: rgb(27, 37, 148);
+}
+
+fieldset{
+    margin: 40px;
+    border: 0px solid rgb(255, 253, 253);
+    
+}
+
+
+
+
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:450;
+    display: block;
+    
+}
+#name{
+    width:50vw;
+    margin-top:5px;
+    margin-bottom: 5px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    
+}
+
+#email{
+    width:50vw;
+    margin-top:5px;
+    margin-bottom:5px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    display:block;
+}
+
+
+#number{
+    width:50vw;
+    margin-top:5px;
+    margin-bottom:5px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+
+
+
+#name-label{
+    margin-top:5px;
+   
+    display: inline-block;
+
+}
+
+
+
+.field1{
+    height:180px;
+   
+}
+
+#dropdown{
+    width:50vw;
+    height:25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    display:block;
+
+}
+
+.field2{
+    height:50px;
+}
+
+.filed3{
+       width:900px;
+
+}
+
+
+.labs{
+    display: block;
+    margin-top:5px ;
+}
+
+
+    
+
+.field4{
+    height: 50px;
+    display: block;
+}
+  
+
+
+
+#feature{
+    width:50vw;
+    height:25px;
+    margin-top: 5px;
+
+    border-radius: 5px;
+    border: none;
+    display: block;
+
+}
+
+.field5 {
+    padding: 0;
+    border: none;
+  }
+  
+  .field5 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .field5 li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .field5 input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .field5 label {
+    cursor: pointer;
+    margin: 0;
+  }
+  
+
+#area{
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+#submit{
+  width:45vw;
+    height:30px;
+    margin-left: 69px;
+}
