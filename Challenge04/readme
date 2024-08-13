@@ -1,0 +1,7 @@
+
+This project features a personal music library with preferred songs.
+Save the desired song to your system.
+Move the song file to the same directory as your HTML file.
+Update the src Attribute: Modify the src attribute of the <audio> tag in the HTML to match the name of the song file.
+Replace the Image: Change the image associated with the song by updating the src attribute of the <img> tag to your own image.
+Create Additional Items: To add more songs, create new items in the same format as the existing ones.
