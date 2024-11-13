@@ -5,6 +5,6 @@ In this challenge I will  create 30 creative designs using html  and css
 <h5>2/30 - Registration form (tricolor theme).</h5>
 <h5>3/30 - simple ball bouncing animation.</h5>
 <h5>4/30 - personal music library.</h5>
-<h5>5/30 - registration form.</h5>
-<h5>6/30 - simple ball bouncing animation.</h5>
+<h5>5/30 - Registration form for patients.</h5>
+<h5>6/30 -Login form.</h5>
 
