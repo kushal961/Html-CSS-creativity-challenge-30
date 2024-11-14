@@ -7,4 +7,6 @@ In this challenge I will  create 30 creative designs using html  and css
 <h5>4/30 - personal music library.</h5>
 <h5>5/30 - Registration form for patients.</h5>
 <h5>6/30 -Login form.</h5>
+<h5>7/30 -Landing Page for Clinic website.</h5>
+
 
