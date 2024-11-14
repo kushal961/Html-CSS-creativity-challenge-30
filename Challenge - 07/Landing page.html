@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medic Company</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+
+     <!--FOnts-->
+     
+
+
+    <style>
+
+
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background:url(team4.png) no-repeat bottom center fixed; 
+        }
+       
+
+        .hero {
+    background: linear-gradient(to left, rgba(6, 168, 237, 0.4), rgba(3, 253, 120, 0.4)); /* Semi-transparent gradient */
+    color: white;
+    padding: 40px 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+    box-shadow: 10px 10px 10px rgb(173, 167, 167);
+}
+
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color:#190665;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #121515;
+        }
+        .hero .cta-button {
+            margin-top: 20px;
+            background-color: #ffffff;
+            color: #078015;
+            border-radius: 13px;
+            padding: 10px 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            width:300px;
+            border:none;
+            
+        }
+
+        .hero .cta-button:hover{
+            background:linear-gradient(rgb(245, 254, 254),rgb(0, 255, 21));
+            color:black;
+        }
+
+        
+        
+        
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #046d70;
+            font-size: 1.1rem;
+            font-weight: bold;
+            
+            
+        }
+
+        nav a:hover{
+            background-image:linear-gradient(to left ,rgb(50, 186, 245),rgb(106, 249, 59)); 
+            border-radius: 25px;
+        }
+        .hero img {
+            max-width:110%;
+            border-radius: 20px;
+            margin-right: -110px;
+            margin-bottom:150px;
+            
+        }
+        .hero-icons {
+            display: flex;
+            justify-content: center;
+           
+        }
+        .hero-icons i {
+            color: white;
+            font-size: 1.2rem;
+            margin: 0 5px;
+        }
+        .sign-in-btn {
+            background:linear-gradient(to left ,rgb(50, 186, 245),rgb(106, 249, 59));
+            color: rgb(8, 92, 110);
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: none;
+           
+        }
+
+
+        
+        
+    </style>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <img class="logo" src="logo2.png" height="84px" width="105px">
+            <li><strong>Medicro</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Doctor</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><button class="sign-in-btn">Sign in</button></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Take Care of <br>
+                    Your Health</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+                nibh <br>euismod tincidunt ut laoreet dolore magna.</p>
+                <button class="cta-button" id="done" onclick="move()">Get Started</button>
+                <!--<div class="hero-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>!-->
+            </div>
+            <div class="hero-image">
+              <!---  <img src="team4.png" alt="Doctors">!-->
+            </div>
+        </section>
+    </main>
+
+   <!--<footer class="container">
+        <small><a href="#">Terms</a> • <a href="#">Privacy</a></small>
+    </footer>!-->
+
+
+    <script>
+        
+        function move(){
+            var element=document.getElementById("done");
+            element.style.background="black";
+            element.style.color="rgb(12, 207, 241)";
+
+            
+        }
+    </script>
+</body>
+</html>
+
