@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">MY <b style="color:#ce6712;">WEBSITE</b></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="#about" class="active" >About</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+                <li><a href="profile.php" >Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger=document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar=document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <style>
+       
+        
+        .coverc{
+          width: 100%;
+          height: 400px;
+          background:url('img/about3.jpg')no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items:center;
+    padding-top: 8rem;
+ 
+        } 
+        .title{
+          font-size: 38px;
+          text-align: center;
+          align-items: center; 
+        }
+       
+        .para {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+       
+        .para p {
+            font-size: 16px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: calc(25% - 40px); 
+            text-align: center;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 10px 10px rgb(234, 225, 225);
+            background-color: #b7ddf0;
+            height: 260px;
+            transform: rotateX('30deg');
+            transition-duration: 4s;
+            
+        
+            
+}
+            
+            
+        
+
+        .para1 p {font-size: 18px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 80%;
+            text-align: center;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 10px 10px rgb(234, 225, 225);
+            background-color: #ffc4a9;
+            margin-left: 11%;
+
+        }
+          @media (max-width: 767px) {
+            .para p{
+               font-size: 16px;
+           
+              }
+            #pptslide{
+                height: 200px;
+                width: 300px;
+
+            }
+            #map{
+              height: 200px;
+                width: 300px;
+
+
+            }
+            #overview{
+              height: 200px;
+                width: 300px;
+            }
+            
+        .title{
+          font-size: 28px;
+          margin: 10px;
+          text-align: center;
+          align-items: center; 
+        }
+
+        #title{
+          text-shadow:gray;
+          text-decoration: wavy;
+        }
+
+       
+      
+        
+
+
+      
+
+          }
+     
+    </style>
+    <br>
+    <br>
+   
+        
+    
+    </section> 
+    <p class="title" id="title">"Welcome to <u> MY <font color=#ce6712> WEBSITE</font></u></p>
+    <br>
+    <br>
+    <br>
+        <p class="heading" >About us</p><br>
+       
+        <!-- <br> -->
+        <div class="para1">
+            
+          
+            <p>We are a dedicated group of individuals driven by our shared mission  in India. Our aim is to establish an innovative platform  Through our efforts .</p>
+          </div>
+      <div class="para">
+        
+        <p> <img src="online-lesson.png" height="73px" width="73px"></img><br>Member 1 <br><br>
+           Name:Member Name<br>
+        College: College name<br>
+      
+        </p>
+        <p><img src="tech-support.png" height="70px" width="70px"></img><br>Member 2 <br><br>
+            Name: Member Name<br>
+         College: College name<br>
+        </p>
+        <p><img src="freelancer.png" height="70px" width="70px"></img><br>Member 3 <br><br>
+            Name: Member Name<br>
+         College:College name <br>
+        </p>
+        <p><img src="blogger.png" height="70px" width="70px"></img><br>Member 4 <br><br>
+            Name: Member Name<br>
+         College: College name<br>
+        </p>
+      </div></a>
+      <br>
+
+    
+     
+      </div>
+ 
+      
+    
+      <br>
+      
+
+
+<div class="map"  style="  text-align: center; padding-bottom: 50px;" >
+<p  style=" font-size:30px ;" > Location  </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.6382814997437!2d73.81337271436596!3d18.494112487417783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2be4cf7bcbfef%3A0x719f16ea99e81e9d!2sMarathwada%20Mitra%20Mandal's%20College%20of%20Engineering%2C%20Pune!5e0!3m2!1sen!2sin!4v1677633156837!5m2!1sen!2sin" width="777" height="473" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+
+
+
+
+     </div>
+
+
+     
+
+
+    
+</body>
+</html>
