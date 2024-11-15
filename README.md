@@ -9,6 +9,7 @@ In this challenge I will  create 30 creative designs using html  and css
 <h5>6/30 -Login form.</h5>
 <h5>7/30 -Landing Page for Clinic website.</h5>
 <h5>8/30 -About Page for a website.</h5>
+<h5>8/30 -Register as options page for a website.</h5>
 
 
 
