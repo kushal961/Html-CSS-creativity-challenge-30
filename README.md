@@ -11,6 +11,6 @@ In this challenge I will  create 30 creative designs using html  and css
 <h5>8/30 -About Page for a website.</h5>
 <h5>9/30 -Register as options page for a website.</h5>
 <h5>10/30 -Resume Generator </h5>
-
+<h5>10/30 -Tribute Page design</h5>
 
 
