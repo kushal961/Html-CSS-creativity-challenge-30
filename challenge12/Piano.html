@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Piano</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="piano.css">
+  </head>
+  <body>
+    <div id="piano">
+       
+        <audio id="myAudio" src="mixkit-bass-guitar-single-note-2331.wav"></audio>
+        <audio id="myAudio2" src="mixkit-losing-piano-2024.wav"></audio>
+        <audio id="myAudio3" src="piano-chords-239967.mp3"></audio>
+        <audio id="myAudio" src="mixkit-bass-guitar-single-note-2331.wav"></audio>
+
+      <img class="logo" src="" />
+      <div class="keys"onclick="playAudio()" >
+        <div class="key" onclick="playAudio2()"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key" onclick="playAudio3()"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+        <div class="key black--key"></div>
+      </div>
+
+      
+    </div>
+
+    <script>
+function playAudio() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+    document.querySelector("button").disabled = true; // Disable button after playing
+    
+}
+
+function playAudio2() {
+    var audio = document.getElementById("myAudio2");
+    audio.play();
+    document.querySelector("button").disabled = true; // Disable button after playing
+    
+}
+
+function playAudio3() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+    document.querySelector("button").disabled = true; // Disable button after playing
+    
+}
+
+
+    </script>
+  </body>
+</html>
